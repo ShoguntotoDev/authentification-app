@@ -12,4 +12,11 @@
     <button class="btn btn-outline-info mt-2" type = "submit">{{ title }}</button>
 </form>
 
+<div class="w-50 mx-auto">
+    <p class="text-center">Ou avec</p>
+    <a class = "btn btn-outline-info mt-2 d-block mx-auto" href="{{route("github.redirect")}}">Github</a>
+    <a class = "btn btn-outline-info mt-2 d-block mx-auto" href="{{route("google.redirect")}}">Google</a>
+
+</div>
+
 @include('partials/footer')
